@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator page</title>
+</head>
+<body>
+	<form action="CalculatorServlet" method="get">
+		Enter first number <input type="text" name="firstnum"/>
+		<br/><br/>
+		Enter second number <input type="text" name="secondnum"/>
+		<br/><br/>
+		Choose operator
+		<input type="radio" name="operator" value="+" /> +
+		<input type="radio" name="operator" value="-" /> -
+		<input type="radio" name="operator" value="*" /> *
+		<input type="radio" name="operator" value="/" /> /
+		<br/><br/>
+		<input type="submit" value="Calculate" />
+	</form> 
+</body>
+</html>
