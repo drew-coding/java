@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BMS</title>
+</head>
+<body>
+	<h1>Welcome BMS course. It is a 3 years full time course with 6 semesters. You will learn
+	Finance, Management , Production management, Marketing and Brand management</h1>
+</body>
+</html>

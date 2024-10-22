@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>B.com.</title>
+</head>
+<body>
+	<h1>Welcome B.com. course. It is a 3 years full time course with 6 semesters. You will learn 
+	Marketing, accounting and various taxation.</h1>
+</body>
+</html>
