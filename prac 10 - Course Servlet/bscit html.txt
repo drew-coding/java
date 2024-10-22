@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BSc.I.T.</title>
+</head>
+<body>
+	<h1>Welcome BSc.I.T. course. It is a 3 years full time course with 6 semesters. 
+	You will learn programming languages such as c, c++, python and java</h1>
+</body>
+</html>
