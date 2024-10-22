@@ -1,0 +1,30 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tax calculator page</title>
+</head>
+<body>
+	<c:set var="salary" value="${param.sal}"/>
+	<c:set var="taxpct"/>
+	<c:choose>
+		<c:when test="${ salary <= 250000}">
+			<c:set var="taxpct" value="0"/>
+		</c:when>
+		<c:when test="${ salary > 250000 && salary <= 500000 }">
+			<c:set var="taxpct" value="5"/>
+		</c:when>
+		<c:when test="${ salary > 500000 && salary <= 2000000 }">
+			<c:set var="taxpct" value="20"/>
+		</c:when>
+		<c:otherwise>
+			<c:set var="taxpct" value="30"/>
+		</c:otherwise>
+	</c:choose>
+	<c:set var="taxamt" value="${(salary * taxpct) / 100.00}"/>
+	<h1>You are eligible for <c:out value="${taxpct}"/>% tax i.e. <c:out value="${taxamt}"/> INR tax amount</h1>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tax calculator page</title>
+</head>
+<body>
+	<form action="TaxCalculator.jsp" method="post">
+		Enter annual salary <input type="text" name="sal" />
+		<input type="submit" value="Show"/>
+	</form>
+</body>
+</html>
