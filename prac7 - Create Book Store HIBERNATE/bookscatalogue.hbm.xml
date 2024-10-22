@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+	<class name="tyit.ej.BooksCatalogue" table="BOOKS_CATALOGUE">
+		<id name="id" column="ID" type="int"/>
+		<property name="name" column="NAME" type="string" />
+		<property name="author" column="AUTHOR" type="string" />
+		<property name="subject" column="SUBJECT" type="string" />
+		<property name="price" column="PRICE" type="float" />
+	</class>
+</hibernate-mapping>

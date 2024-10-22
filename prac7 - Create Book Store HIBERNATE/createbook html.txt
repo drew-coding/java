@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Create book page</title>
+	</head>
+	<body>
+		<form action="CreateBookServlet" method="post">
+			Enter name <input type="text" name="bname"/>
+			<br/><br/>
+			Enter author <input type="text" name="bauthor"/>
+			<br/><br/>
+			Enter subject <input type="text" name="bsubject"/>
+			<br/><br/>
+			Enter price <input type="text" name="bprice" />
+			<br/><br/>
+			<input type="submit" value="Create"/>
+		</form>
+	</body>
+</html>
+
+
+
+CREATE DATABASE BOOKSTORE_DB;
+
+USE BOOKSTORE_DB;
+
+CREATE TABLE BOOKS_CATALOGUE (
+	ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+	NAME VARCHAR(100) NOT NULL,
+	AUTHOR VARCHAR(100) NOT NULL,
+	SUBJECT VARCHAR(50) NOT NULL,
+	PRICE FLOAT(7,2) NOT NULL
+);
