@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MCQ application</title>
+</head>
+<body>
+	<h1>MCQ Exam</h1>
+	
+	<form action="GetScoreServlet" method="post">
+		<br/>
+		Which of the following is national flower of India? <br/>
+		<input type="radio" name="q1" value="0"/> Rose <br/>
+		<input type="radio" name="q1" value="0"/> Sunflower <br/>
+		<input type="radio" name="q1" value="10"/> Lotus <br/>
+		
+		<br/>
+		Which of the following is capital state of India? <br/>
+		<input type="radio" name="q2" value="0"/> Maharashtra <br/>
+		<input type="radio" name="q2" value="10"/> Delhi <br/>
+		<input type="radio" name="q2" value="0"/> Kerala <br/>
+		
+		<br/>
+		Which of the following is national animal of India? <br/>
+		<input type="radio" name="q3" value="10"/> Tiger <br/>
+		<input type="radio" name="q3" value="0"/> Lion <br/>
+		<input type="radio" name="q3" value="0"/> Elephant <br/>
+		
+		<br/>
+		<input type="submit" value="Score" />
+	</form>
+</body>
+</html>
