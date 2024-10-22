@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+</head>
+<body>
+	<form action="RegistrationServlet" method="post">
+		Enter username <input type="text" name="uname"/>
+		<br/><br/>
+		Enter password <input type="password" name="upass"/>
+		<br/><br/>
+		Enter email <input type="text" name="uemail"/>
+		<br/><br/>
+		Enter country <input type="text" name="ucountry"/>
+		<br/><br/>
+		<input type="submit" value="Register"/>
+	</form>
+</body>
+</html>
+
+
+CREATE DATABASE USERS_DB;
+
+USE USERS_DB;
+
+CREATE TABLE REGISTRATION (
+	ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+	USERNAME VARCHAR(100) NOT NULL,
+	PASSWORD VARCHAR(100) NOT NULL,
+	EMAIL VARCHAR(100),
+	COUNTRY VARCHAR(50)
+);
